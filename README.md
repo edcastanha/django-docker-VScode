@@ -1,15 +1,27 @@
 # PREPARAÇÂO 
 
-```git init```
+```
+git init
+```
 
 Na sequencia criamos este REAME e comitamos e criaremos a Branch MAin para padronizar:
-```git commit -m "REAME criado e Branch Main"```
-```git branch -M main```
 
+```
+git commit -m "REAME criado e Branch Main"
+```
 
-Substitua o " <link> (seu repositório) pelo url padrão.
-```git remote add origin <link>```
-```git push -u origin main```
+```
+git branch -M main
+```
+
+Substitua o "link" pelo url padrão do seu repositório.
+```
+git remote add origin <link>
+```
+Vamos add a branch Main como padrão
+```
+git push -u origin main
+```
 
 
 
