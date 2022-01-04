@@ -2,9 +2,9 @@ version: '3.4'
 
 services:
   djangodockervscode:
-    image: djangodockervscode
+    image: django-docker-vscode
     build:
       context: .
       dockerfile: ./Dockerfile
     ports:
-      - 8000:8000
+      - 8080:8080
