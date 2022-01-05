@@ -34,3 +34,15 @@ Boilerplate Django via Docker
 ```
 docker run -v ${PWD}/web:/app -w /app python:3.7-alpine sh -c "pip install Django==3.2 && django-admin startproject app ."
 ```
+Estando na pasta do seu Dockerfile
+Criando a image:
+```
+docker build -t NOME_USER/NOME_IMAGE:TAG .
+```
+Teste sua image local, estando tudo OK publique no DockerHub
+Exemplo:
+```
+docker push edcastanha/idandes:python3.7-debug
+```
+
+Resultado: https://hub.docker.com/r/edcastanha/idandes
